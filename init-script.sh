@@ -3,5 +3,5 @@
 apt update
 apt full-upgrade -y
 apt dist-upgrade -y
-apt install sudo git
+apt install -y sudo git docker docker-compose
 adduser oysi sudo
